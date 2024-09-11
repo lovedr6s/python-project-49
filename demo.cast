@@ -1,9 +1,3 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/lovedr6s/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/lovedr6s/python-project-49/actions)
-
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/d5fa61b58bf3275b66cb/maintainability)](https://codeclimate.com/github/lovedr6s/python-project-49/maintainability)
-
 {"version": 2, "width": 80, "height": 24, "timestamp": 1726038696, "env": {"SHELL": "/bin/zsh", "TERM": "xterm-256color"}}
 [0.028805, "o", "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"]
 [0.029786, "o", "\u001b]7;file://MacBook-Air-Pavel.local/Users/lovedr6s/Desktop/Programming/python-project-49\u0007"]
