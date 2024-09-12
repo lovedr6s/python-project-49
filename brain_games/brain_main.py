@@ -2,7 +2,9 @@ from brain_games.scripts import brain_games
 import prompt
 
 def main(module_game):
-    name = brain_games.main()
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}')
     print(module_game.DESCRIPTION)
     won = True
     for _ in range(0, 3):
