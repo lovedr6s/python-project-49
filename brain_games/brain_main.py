@@ -1,5 +1,5 @@
 from brain_games.scripts import brain_games
-
+import prompt
 
 def main(module_game):
     name = brain_games.main()
@@ -8,7 +8,7 @@ def main(module_game):
     for _ in range(0, 3):
         question, correct = module_game.play()
         print(f"Question: {question}")
-        answer = input("Your answer: ")
+        answer = prompt.string("Your answer: ")
         if answer == correct:
             print("Correct!")
         else:
