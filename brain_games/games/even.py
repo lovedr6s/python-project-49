@@ -1,7 +1,7 @@
 import random
 
 
-DESCRIPTION = "\"yes\" if the number is even, otherwise answer \"no\"."
+DESCRIPTION = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
 
 
 def play():
