@@ -8,8 +8,8 @@ def gcd(a, b):
     return a
 
 def play():
-    num_one = 5#random.randint(1, 10)
-    num_two = 10#random.randint(1, 10)
+    num_one = random.randint(1, 10)
+    num_two = random.randint(1, 10)
     
     correct = gcd(num_one, num_two)
     
