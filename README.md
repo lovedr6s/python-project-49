@@ -6,8 +6,18 @@
 
 Project was made for Hexlet by lovedr6s
 
-It has 5 math games.
+INSTALLATION:
 
+In the main directory:
+make package-install
+
+To run games:
+
+brain-calc
+brain-even
+brain-gcd
+brain-prime
+brain-progression
 
 brain-calc:
 
