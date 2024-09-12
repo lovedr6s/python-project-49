@@ -18,7 +18,7 @@ def main(module_game):
             print(f"Let's try again, {name}!")
             won = False
             break
-    if won: print(f"Congradulations, {name}!")
+    if won: print(f"Congratulations, {name}!")
 
 if __name__ == "__main__":
     main()
