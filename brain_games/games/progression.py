@@ -12,4 +12,4 @@ def play():
         first_number += working_number
     correct = result[choosen_number]
     result[choosen_number] = ".."
-    return result, str(correct)
+    return ' '.join(str(el) for el in result), str(correct)
