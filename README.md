@@ -10,16 +10,21 @@ It has 5 math games.
 
 
 brain-calc:
+
 [![asciicast](https://asciinema.org/a/L6eXkXk3uukwn1LPmD6tuzmlK.svg)](https://asciinema.org/a/L6eXkXk3uukwn1LPmD6tuzmlK)
 
 brain-even:
+
 [![asciicast](https://asciinema.org/a/xgMi9d5CqXHnTlEgaquzQPfha.svg)](https://asciinema.org/a/xgMi9d5CqXHnTlEgaquzQPfha)
 
 brain-gcd:
+
 [![asciicast](https://asciinema.org/a/S7fB9l7sHAfTQCtqyFATRpxkK.svg)](https://asciinema.org/a/S7fB9l7sHAfTQCtqyFATRpxkK)
 
 brain-prime:
+
 [![asciicast](https://asciinema.org/a/Y90j0f03cMXrsnZBnN0rCVDmJ.svg)](https://asciinema.org/a/Y90j0f03cMXrsnZBnN0rCVDmJ)
 
 brain-progression:
+
 [![asciicast](https://asciinema.org/a/xCCE5E5MCrZJcrLFSAjJJIxhZ.svg)](https://asciinema.org/a/xCCE5E5MCrZJcrLFSAjJJIxhZ)
