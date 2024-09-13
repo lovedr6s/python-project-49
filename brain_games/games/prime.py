@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import random
 
 DESCRIPTION = ("Answer \"yes\" if given number is prime. "

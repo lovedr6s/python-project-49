@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import random
 
 DESCRIPTION = "What is the result of the expression?"
