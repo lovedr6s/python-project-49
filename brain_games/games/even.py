@@ -12,4 +12,3 @@ def play():
     else:
         correct_answer = "no"
     return number, correct_answer
-

@@ -1,5 +1,5 @@
-from brain_games.scripts import brain_games
 import prompt
+
 
 def main(module_game):
     print('Welcome to the Brain Games!')
@@ -14,11 +14,14 @@ def main(module_game):
         if answer == correct:
             print("Correct!")
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}')")
+            print(f"'{answer}' is wrong answer ;(."
+                  "Correct answer was '{correct}')")
             print(f"Let's try again, {name}!")
             won = False
             break
-    if won: print(f"Congratulations, {name}!")
+    if won:
+        print(f"Congratulations, {name}!")
+
 
 if __name__ == "__main__":
     main()
