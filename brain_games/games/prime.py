@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-import random
+from brain_games.utils import random
 
 DESCRIPTION = ("Answer \"yes\" if given number is prime. "
                "Otherwise answer \"no\".")
 
 
 def play():
-    first_number = random.randint(2, 10)
+    first_number = random(2, 10)
     correct = "yes"
     for char in range(2, first_number):
         if first_number % char == 0:

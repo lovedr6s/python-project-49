@@ -1,5 +1,5 @@
 import prompt
-
+from brain_games import const
 
 def main(module_game):
     print('Welcome to the Brain Games!')
@@ -7,7 +7,7 @@ def main(module_game):
     print(f'Hello, {name}')
     print(module_game.DESCRIPTION)
     won = True
-    for _ in range(0, 3):
+    for _ in range(0, const.ROUNDS):
         question, correct = module_game.play()
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")
