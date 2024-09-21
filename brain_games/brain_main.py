@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import prompt
 
 
@@ -22,7 +21,3 @@ def main(module_game):
             break
     if won:
         print(f"Congratulations, {name}!")
-
-
-if __name__ == "__main__":
-    main()
