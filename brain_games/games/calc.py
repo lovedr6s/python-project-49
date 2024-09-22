@@ -8,8 +8,8 @@ def play():
     operations = ["+", "-", "*"]
     first_number = random(0, 10)
     second_number = random(0, 10)
-    correct_operation = operations[random(0, 2)]
-    match correct_operation:
+    operation = operations[random(0, 2)]
+    match operation:
         case "+":
             correct_answer = first_number + second_number
         case "-":
@@ -17,4 +17,4 @@ def play():
         case "*":
             correct_answer = first_number * second_number
 
-    return f"{first_number} {correct_operation} {second_number}", str(correct_answer)
+    return f"{first_number} {operation} {second_number}", str(correct_answer)
