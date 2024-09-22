@@ -1,13 +1,14 @@
 import prompt
 from brain_games import const
 
+
 def main(module_game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}')
     print(module_game.DESCRIPTION)
     won = True
-    for _ in range(0, const.ROUNDS):
+    for _ in range(const.ROUNDS):
         question, correct = module_game.play()
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")

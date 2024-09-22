@@ -4,20 +4,30 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/d5fa61b58bf3275b66cb/maintainability)](https://codeclimate.com/github/lovedr6s/python-project-49/maintainability)
 
-Project was made for Hexlet by lovedr6s
+# Project was made for Hexlet by lovedr6s
 
-INSTALLATION:
+### Technology Stack
+1. Programming Language:
+* Python version 3.8+
+2. Tools and Librares:
+* Standart Python Library
+* prompt
+* flake8
 
-In the main directory:
+
+### INSTALLATION:
+
 make package-install
 
-To run games:
+### To run games after installation write in command line those commands:
 
 brain-calc
 brain-even
 brain-gcd
 brain-prime
 brain-progression
+
+### Videos of working games:
 
 brain-calc:
 
