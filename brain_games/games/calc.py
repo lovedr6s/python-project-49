@@ -5,16 +5,16 @@ DESCRIPTION = "What is the result of the expression?"
 
 
 def play():
-    operation = ["+", "-", "*"]
-    one = random(0, 10)
-    two = random(0, 10)
-    correct_operation = operation[random(0, 2)]
+    operations = ["+", "-", "*"]
+    first_number = random(0, 10)
+    second_number = random(0, 10)
+    correct_operation = operations[random(0, 2)]
     match correct_operation:
         case "+":
-            correct = one + two
+            correct_answer = first_number + second_number
         case "-":
-            correct = one - two
+            correct_answer = first_number - second_number
         case "*":
-            correct = one * two
+            correct_answer = first_number * second_number
 
-    return f"{one} {correct_operation} {two}", str(correct)
+    return f"{first_number} {correct_operation} {second_number}", str(correct_answer)

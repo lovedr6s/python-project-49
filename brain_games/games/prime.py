@@ -6,9 +6,10 @@ DESCRIPTION = ("Answer \"yes\" if given number is prime. "
 
 
 def play():
-    first_number = random(2, 10)
+    number = random(2, 10)
     correct = "yes"
-    for char in range(2, first_number):
-        if first_number % char == 0:
+    for char in range(2, number):
+        if number % char == 0:
             correct = "no"
-    return first_number, correct
+            break
+    return number, correct
