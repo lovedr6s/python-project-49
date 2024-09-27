@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 from brain_games.utils import random
+from brain_games.const import OPERATIONS
 
 DESCRIPTION = "What is the result of the expression?"
 
 
 def play():
-    operations = ["+", "-", "*"]
+    operations = OPERATIONS
     first_number = random(0, 10)
     second_number = random(0, 10)
     operation = operations[random(0, 2)]
