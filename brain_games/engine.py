@@ -3,8 +3,7 @@ from brain_games import const
 
 
 def main(module_game):
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
+    name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}')
     print(module_game.DESCRIPTION)
     won = True

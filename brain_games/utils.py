@@ -1,5 +1,9 @@
-from random import randint
+from random import randint, choice
 
 
-def random(begin, end):
+def get_random_number(begin, end):
     return randint(begin, end)
+
+
+def get_random_element(list):
+    return choice(list)

@@ -1,15 +1,13 @@
-#!/usr/bin/env python3
-from brain_games.utils import random
-from brain_games.const import OPERATIONS
+from brain_games.utils import get_random_number
+from brain_games.utils import get_random_element
 
 DESCRIPTION = "What is the result of the expression?"
 
 
 def play():
-    operations = OPERATIONS
-    first_number = random(0, 10)
-    second_number = random(0, 10)
-    operation = operations[random(0, 2)]
+    operation = get_random_element(["+", "-", "*"])
+    first_number = get_random_number(0, 10)
+    second_number = get_random_number(0, 10)
     match operation:
         case "+":
             correct_answer = first_number + second_number
