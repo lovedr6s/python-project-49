@@ -1,1 +1,3 @@
 ROUNDS = 3
+CORRECT = 'yes'
+NOT_CORRECT = 'no'
