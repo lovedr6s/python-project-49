@@ -10,8 +10,7 @@ def get_random_operation():
 
 def get_question_and_answer():
     operation = get_random_operation()
-    first_number = get_random_number()
-    second_number = get_random_number()
+    first_number, second_number = get_random_number(), get_random_number()
 
     match operation:
         case "+":
@@ -20,8 +19,11 @@ def get_question_and_answer():
             correct_answer = first_number - second_number
         case "*":
             correct_answer = first_number * second_number
-
-    return f"{first_number} {operation} {second_number}", str(correct_answer)
+    question_and_answer = (
+        f"{first_number} {operation} {second_number}",
+        str(correct_answer)
+    )
+    return question_and_answer
 
 
 def start_game():

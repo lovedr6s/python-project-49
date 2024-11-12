@@ -2,8 +2,6 @@ from random import randint, choice
 from brain_games import const
 
 
-
-
 def get_random_number(begin=const.DEFAULT_BEGIN, end=const.DEFAULT_END):
     return randint(begin, end)
 

@@ -5,9 +5,14 @@ from brain_games import engine
 DESCRIPTION = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
 
 
+def is_even(number):
+    return number % 2 == 0
+
+
 def get_question_and_answer():
     number = get_random_number()
-    return number, "yes" if number % 2 == 0 else "no"
+    answer = "yes" if is_even(number) else "no"
+    return number, answer
 
 
 def start_game():
