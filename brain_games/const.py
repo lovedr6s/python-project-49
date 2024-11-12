@@ -1,3 +1,4 @@
 ROUNDS = 3
-CORRECT = 'yes'
-NOT_CORRECT = 'no'
+DEFAULT_BEGIN = 2
+DEFAULT_END = 10
+DEFAULT_LIST = ["+", "-", "*"]
