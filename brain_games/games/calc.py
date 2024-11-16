@@ -1,30 +1,24 @@
-from brain_games.utils import get_random_number, get_random_element
+from brain_games.utils import get_random_number
+from brain_games.const import DESCRIPTION_CALC
 from brain_games import engine
+import random
 
-DESCRIPTION = "What is the result of the expression?"
 
 
-def get_random_operation():
-    return get_random_element()
+def get_random_math_sign_and_result(first_num, second_num):
+    return random.choice([
+        ('+', first_num + second_num),
+        ('-', first_num - second_num),
+        ('*', first_num * second_num)
+    ])
 
 
 def get_question_and_answer():
-    operation = get_random_operation()
     first_number, second_number = get_random_number(), get_random_number()
-
-    match operation:
-        case "+":
-            correct_answer = first_number + second_number
-        case "-":
-            correct_answer = first_number - second_number
-        case "*":
-            correct_answer = first_number * second_number
-    question_and_answer = (
-        f"{first_number} {operation} {second_number}",
-        str(correct_answer)
-    )
-    return question_and_answer
+    operation, correct_answer = get_random_math_sign_and_result(first_number, second_number)
+    question =  f"{first_number} {operation} {second_number}"
+    return question, str(correct_answer)
 
 
 def start_game():
-    engine.run_game(DESCRIPTION, get_question_and_answer)
+    engine.run_game(DESCRIPTION_CALC, get_question_and_answer)

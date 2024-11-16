@@ -1,4 +1,7 @@
 ROUNDS = 3
-DEFAULT_BEGIN = 2
-DEFAULT_END = 10
-DEFAULT_LIST = ["+", "-", "*"]
+DESCRIPTION_CALC = "What is the result of the expression?"
+DESCRIPTION_EVEN = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
+DESCRIPTION_GCD = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION_PRIME = ("Answer \"yes\" if given number is prime. "
+               "Otherwise answer \"no\".")
+DESCRIPTION_PROGRESSION = "What number is missing in the progression?"

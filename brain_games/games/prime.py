@@ -1,8 +1,6 @@
 from brain_games.utils import get_random_number
+from brain_games.const import DESCRIPTION_PRIME
 from brain_games import engine
-
-DESCRIPTION = ("Answer \"yes\" if given number is prime. "
-               "Otherwise answer \"no\".")
 
 
 def is_prime(number):
@@ -21,4 +19,4 @@ def get_question_and_answer():
 
 
 def start_game():
-    engine.run_game(DESCRIPTION, get_question_and_answer)
+    engine.run_game(DESCRIPTION_PRIME, get_question_and_answer)
